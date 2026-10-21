@@ -1,0 +1,2938 @@
+# Copyright (C) 2026 Over The Ball Yarns
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Over The Ball 1.0.0\n"
+"Report-Msgid-Bugs-To: https://overtheballyarns.com/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Over The Ball Yarns\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-21T03:30:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: overtheball\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/admin/theme-page.php:17
+#: inc/admin/theme-page.php:550
+#: inc/setup.php:204
+msgid "Over The Ball"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://overtheballyarns.com/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A boutique WooCommerce theme for Over The Ball Yarns — online yarn and fiber sales. Violet-and-ink palette drawn from the Over The Ball Yarns logo, shop-by-weight navigation, yarn detail spec tables, a skein calculator, an off-canvas cart, a homepage section builder, and full support for WooCommerce, Contact Form 7, MailPoet and Elementor. Includes extensive Customizer settings for colors, typography, layout, header, footer, sidebars and menus, plus a tool that imports every picture from the previously active theme."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+#: inc/admin/theme-page.php:86
+msgid "Over The Ball Yarns"
+msgstr ""
+
+#: 404.php:17
+msgid "This page seems to have rolled under the sofa. Try a search, or head somewhere cozy:"
+msgstr ""
+
+#: 404.php:21
+msgid "Back to home"
+msgstr ""
+
+#: 404.php:23
+msgid "Browse the shop"
+msgstr ""
+
+#. translators: 1: comment count, 2: post title.
+#: comments.php:21
+#, php-format
+msgid "%1$s thought on “%2$s”"
+msgid_plural "%1$s thoughts on “%2$s”"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:36
+msgid "Back to top"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/theme-page.php:16
+#: inc/admin/theme-page.php:88
+msgid "Over The Ball Theme"
+msgstr ""
+
+#. translators: 1: done, 2: total.
+#: inc/admin/theme-page.php:44
+#, php-format
+msgid "Imported %1$d of %2$d…"
+msgstr ""
+
+#. translators: 1: library size, 2: slots filled.
+#: inc/admin/theme-page.php:46
+#, php-format
+msgid "Done! %1$d pictures in your library; %2$d image slots filled."
+msgstr ""
+
+#: inc/admin/theme-page.php:47
+msgid "Some pictures could not be imported. Reload the page to retry."
+msgstr ""
+
+#: inc/admin/theme-page.php:61
+msgid "Online store: products, cart, checkout. Enables the shop layouts, mini cart, yarn details and shop-by-weight."
+msgstr ""
+
+#: inc/admin/theme-page.php:62
+msgid "Contact forms, styled by the theme and used by the Contact page template."
+msgstr ""
+
+#: inc/admin/theme-page.php:63
+msgid "Newsletter signups in the footer strip and homepage newsletter section."
+msgstr ""
+
+#: inc/admin/theme-page.php:64
+msgid "Drag-and-drop page building. Works with the Full Width and Blank Canvas templates, and Elementor Pro Theme Builder locations."
+msgstr ""
+
+#: inc/admin/theme-page.php:75
+msgid "Welcome"
+msgstr ""
+
+#: inc/admin/theme-page.php:76
+#: inc/customizer/options.php:1357
+msgid "Pictures"
+msgstr ""
+
+#: inc/admin/theme-page.php:77
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/theme-page.php:78
+msgid "Settings Tools"
+msgstr ""
+
+#: inc/admin/theme-page.php:89
+msgid "A yarn & fiber shop theme with WooCommerce, Contact Form 7, MailPoet and Elementor support."
+msgstr ""
+
+#: inc/admin/theme-page.php:115
+msgid "Settings imported."
+msgstr ""
+
+#: inc/admin/theme-page.php:116
+msgid "Theme settings reset to their defaults."
+msgstr ""
+
+#: inc/admin/theme-page.php:117
+msgid "Empty image slots were filled from your picture library."
+msgstr ""
+
+#: inc/admin/theme-page.php:118
+msgid "Picture library list cleared (the pictures stay in your media library)."
+msgstr ""
+
+#: inc/admin/theme-page.php:119
+msgid "That file is not a valid Over The Ball settings export."
+msgstr ""
+
+#: inc/admin/theme-page.php:120
+msgid "Pictures imported."
+msgstr ""
+
+#: inc/admin/theme-page.php:143
+msgid "Logo set"
+msgstr ""
+
+#: inc/admin/theme-page.php:144
+msgid "Pictures from your previous theme imported"
+msgstr ""
+
+#: inc/admin/theme-page.php:145
+msgid "Primary menu assigned"
+msgstr ""
+
+#: inc/admin/theme-page.php:146
+msgid "A static homepage chosen (Settings → Reading)"
+msgstr ""
+
+#: inc/admin/theme-page.php:147
+msgid "WooCommerce active"
+msgstr ""
+
+#: inc/admin/theme-page.php:148
+msgid "Contact details added"
+msgstr ""
+
+#: inc/admin/theme-page.php:149
+msgid "Social profiles linked (Instagram, Ravelry…)"
+msgstr ""
+
+#: inc/admin/theme-page.php:150
+msgid "Newsletter form connected (MailPoet)"
+msgstr ""
+
+#: inc/admin/theme-page.php:154
+msgid "Colors & fonts"
+msgstr ""
+
+#: inc/admin/theme-page.php:155
+msgid "Header options"
+msgstr ""
+
+#: inc/admin/theme-page.php:156
+msgid "Footer options"
+msgstr ""
+
+#: inc/admin/theme-page.php:157
+msgid "Homepage sections"
+msgstr ""
+
+#: inc/admin/theme-page.php:158
+msgid "Layout & sidebars"
+msgstr ""
+
+#: inc/admin/theme-page.php:159
+msgid "Shop settings"
+msgstr ""
+
+#: inc/admin/theme-page.php:160
+msgid "Blog settings"
+msgstr ""
+
+#: inc/admin/theme-page.php:161
+msgid "Contact, social & forms"
+msgstr ""
+
+#: inc/admin/theme-page.php:162
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/theme-page.php:163
+msgid "Widgets & sidebars"
+msgstr ""
+
+#: inc/admin/theme-page.php:168
+msgid "Setup checklist"
+msgstr ""
+
+#: inc/admin/theme-page.php:179
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/theme-page.php:187
+msgid "Good to know"
+msgstr ""
+
+#: inc/admin/theme-page.php:189
+msgid "Menu locations: Primary, Top Bar, Mobile, Footer Links and Footer Bottom (Appearance → Menus → Manage Locations)."
+msgstr ""
+
+#: inc/admin/theme-page.php:190
+msgid "Mega menu: add the CSS class \"mega-menu\" to a top-level Primary menu item. Its sub-items become columns."
+msgstr ""
+
+#: inc/admin/theme-page.php:191
+msgid "Widget areas: Blog, Page, Shop (mobile filter drawer), Product, Top Bar, Header, Mobile Menu Drawer, Before Footer and Footer Columns 1–4."
+msgstr ""
+
+#: inc/admin/theme-page.php:192
+msgid "Every page has a \"Page Layout\" box: sidebar, full-width content, transparent header, and hiding the title, breadcrumbs, header or footer."
+msgstr ""
+
+#: inc/admin/theme-page.php:193
+msgid "Page templates: Full Width, Blank Canvas (for Elementor landing pages) and Contact."
+msgstr ""
+
+#: inc/admin/theme-page.php:194
+msgid "Products have a \"Yarn Details\" tab (weight, fiber, yardage, gauge, needle & hook size, care). It powers spec chips, the skein calculator and Shop by Weight."
+msgstr ""
+
+#: inc/admin/theme-page.php:195
+msgid "Shortcodes for Elementor or blocks: [otb_section name=\"hero\"], [otb_section name=\"weights\"], [otb_newsletter], [otb_social], [otb_contact]."
+msgstr ""
+
+#: inc/admin/theme-page.php:222
+msgid "Bring your pictures over"
+msgstr ""
+
+#: inc/admin/theme-page.php:224
+msgid "Over The Ball copies every picture from your previous theme into the Media Library, adds pictures that theme had set in the Customizer, and uses them in the homepage hero, promo, about section, title banner and picture gallery."
+msgstr ""
+
+#. translators: %s: theme name.
+#: inc/admin/theme-page.php:228
+#, php-format
+msgid "Your previous theme was %s."
+msgstr ""
+
+#: inc/admin/theme-page.php:236
+msgid "Source"
+msgstr ""
+
+#: inc/admin/theme-page.php:239
+msgid "(previous theme)"
+msgstr ""
+
+#: inc/admin/theme-page.php:243
+msgid "Skip pictures smaller than"
+msgstr ""
+
+#: inc/admin/theme-page.php:246
+msgid "Scan"
+msgstr ""
+
+#. translators: 1: pictures found, 2: already imported, 3: skipped small images, 4: pictures from theme settings.
+#: inc/admin/theme-page.php:254
+#, php-format
+msgid "Found %1$d pictures (%2$d already imported), skipped %3$d small icons/sprites, plus %4$d pictures set in that theme's Customizer."
+msgstr ""
+
+#. translators: %d: number of pictures.
+#: inc/admin/theme-page.php:266
+#, php-format
+msgid "Import %d picture and use it"
+msgid_plural "Import %d pictures and use them"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/theme-page.php:267
+msgid "Add to library & fill empty image slots"
+msgstr ""
+
+#: inc/admin/theme-page.php:291
+msgid "This folder is empty. You can copy pictures into wp-content/themes/overtheball/assets/images/library/ and scan again."
+msgstr ""
+
+#. translators: %d: number of pictures.
+#: inc/admin/theme-page.php:299
+#, php-format
+msgid "Your picture library (%d)"
+msgstr ""
+
+#: inc/admin/theme-page.php:302
+msgid "The homepage picture gallery shows all of these unless you pick specific pictures in the Customizer."
+msgstr ""
+
+#: inc/admin/theme-page.php:325
+msgid "Fill empty image slots"
+msgstr ""
+
+#: inc/admin/theme-page.php:326
+msgid "Re-assign all image slots"
+msgstr ""
+
+#: inc/admin/theme-page.php:327
+msgid "Clear library list"
+msgstr ""
+
+#: inc/admin/theme-page.php:353
+#: inc/admin/theme-page.php:459
+#: inc/admin/theme-page.php:488
+#: inc/admin/theme-page.php:524
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: inc/admin/theme-page.php:384
+msgid "Supported plugins"
+msgstr ""
+
+#: inc/admin/theme-page.php:386
+msgid "Plugin"
+msgstr ""
+
+#: inc/admin/theme-page.php:386
+msgid "What the theme does with it"
+msgstr ""
+
+#: inc/admin/theme-page.php:386
+msgid "Status"
+msgstr ""
+
+#: inc/admin/theme-page.php:399
+msgid "Active"
+msgstr ""
+
+#: inc/admin/theme-page.php:401
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/theme-page.php:403
+msgid "Install"
+msgstr ""
+
+#: inc/admin/theme-page.php:405
+msgid "Not installed"
+msgstr ""
+
+#: inc/admin/theme-page.php:423
+msgid "Export settings"
+msgstr ""
+
+#: inc/admin/theme-page.php:424
+msgid "Download every Over The Ball Customizer setting as a JSON file — handy for backups or moving to a staging site."
+msgstr ""
+
+#: inc/admin/theme-page.php:428
+msgid "Download export"
+msgstr ""
+
+#: inc/admin/theme-page.php:432
+msgid "Import settings"
+msgstr ""
+
+#: inc/admin/theme-page.php:433
+msgid "Upload a file exported from this theme. Every value is validated before it is saved."
+msgstr ""
+
+#: inc/admin/theme-page.php:438
+msgid "Import"
+msgstr ""
+
+#: inc/admin/theme-page.php:442
+msgid "Reset settings"
+msgstr ""
+
+#: inc/admin/theme-page.php:443
+msgid "Return all Over The Ball Customizer settings to their defaults. Menus, widgets, the logo and your content are not touched."
+msgstr ""
+
+#: inc/admin/theme-page.php:444
+msgid "Reset all theme settings to defaults?"
+msgstr ""
+
+#: inc/admin/theme-page.php:447
+msgid "Reset to defaults"
+msgstr ""
+
+#. translators: %d: MailPoet form ID.
+#: inc/compat/mailpoet.php:41
+#, php-format
+msgid "Form #%d"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:18
+msgid "— Not set —"
+msgstr ""
+
+#. translators: 1: CYC weight number, 2: weight name.
+#: inc/compat/woocommerce-yarn.php:21
+#, php-format
+msgid "%1$d · %2$s"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:26
+msgid "Yarn weight"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:29
+msgid "Craft Yarn Council standard weight. Powers \"Shop by Weight\"."
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:32
+msgid "Fiber content"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:33
+msgid "e.g. 75% superwash merino, 25% nylon"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:36
+msgid "Yards per skein"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:40
+msgid "Meters per skein"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:42
+msgid "Leave blank to calculate from yards."
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:45
+msgid "Skein weight"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:46
+msgid "e.g. 100 g"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:49
+msgid "Gauge"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:50
+msgid "e.g. 28 sts = 4 in / 10 cm"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:53
+msgid "Needle size"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:54
+msgid "e.g. US 1–3 (2.25–3.25 mm)"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:57
+msgid "Hook size"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:58
+msgid "e.g. B-1 to E-4 (2.25–3.5 mm)"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:61
+msgid "Care"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:62
+msgid "e.g. Machine wash cool, lay flat to dry"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:65
+msgid "Origin"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:66
+msgid "e.g. Hand-dyed in small batches"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:69
+msgid "Show dye lot notice"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:71
+msgid "Reminds shoppers to buy enough from one lot (text set in the Customizer)."
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:84
+#: inc/compat/woocommerce-yarn.php:237
+#: inc/compat/woocommerce-yarn.php:252
+msgid "Yarn Details"
+msgstr ""
+
+#. translators: 1: weight name, 2: CYC weight number.
+#: inc/compat/woocommerce-yarn.php:200
+#, php-format
+msgid "%1$s (CYC %2$d)"
+msgstr ""
+
+#. translators: %s: yards.
+#: inc/compat/woocommerce-yarn.php:204
+#: inc/compat/woocommerce-yarn.php:359
+#, php-format
+msgid "%s yd"
+msgstr ""
+
+#. translators: %s: meters.
+#: inc/compat/woocommerce-yarn.php:208
+#, php-format
+msgid "%s m"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:213
+msgid "Length"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:319
+msgid "How many skeins do I need?"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:321
+msgid "Your pattern calls for"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:324
+msgid "Unit"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:325
+msgid "yards"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:326
+msgid "meters"
+msgstr ""
+
+#. translators: 1: yards per skein, 2: meters per skein.
+#: inc/compat/woocommerce-yarn.php:333
+#, php-format
+msgid "Each skein is about %1$s yd / %2$s m. Consider one extra for swatching."
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:408
+msgid "Showing yarn weight:"
+msgstr ""
+
+#: inc/compat/woocommerce-yarn.php:411
+#: inc/customizer/controls.php:185
+msgid "Clear"
+msgstr ""
+
+#: inc/compat/woocommerce.php:186
+#: inc/template-tags.php:292
+msgid "Home"
+msgstr ""
+
+#: inc/compat/woocommerce.php:245
+msgid "Sold out"
+msgstr ""
+
+#: inc/compat/woocommerce.php:251
+msgid "New"
+msgstr ""
+
+#: inc/compat/woocommerce.php:282
+msgid "Sale"
+msgstr ""
+
+#. translators: %d: discount percentage.
+#: inc/compat/woocommerce.php:303
+#, php-format
+msgid "-%d%%"
+msgstr ""
+
+#: inc/compat/woocommerce.php:326
+msgid "Filter"
+msgstr ""
+
+#: inc/compat/woocommerce.php:362
+#: template-parts/footer/default-column.php:57
+msgid "Cart"
+msgstr ""
+
+#: inc/compat/woocommerce.php:381
+msgid "Items in cart:"
+msgstr ""
+
+#: inc/compat/woocommerce.php:431
+msgid "Your cart"
+msgstr ""
+
+#: inc/compat/woocommerce.php:434
+msgid "Close cart"
+msgstr ""
+
+#. translators: %s: amount left to spend.
+#: inc/compat/woocommerce.php:469
+#, php-format
+msgid "You are %s away from free shipping."
+msgstr ""
+
+#: inc/compat/woocommerce.php:471
+msgid "You have unlocked free shipping!"
+msgstr ""
+
+#: inc/compat/woocommerce.php:527
+msgid "Choose options"
+msgstr ""
+
+#: inc/customizer/controls.php:85
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer/controls.php:143
+msgid "Move up"
+msgstr ""
+
+#: inc/customizer/controls.php:144
+msgid "Move down"
+msgstr ""
+
+#: inc/customizer/controls.php:183
+msgid "Showing every picture imported from your previous theme."
+msgstr ""
+
+#: inc/customizer/controls.php:184
+msgid "Choose pictures"
+msgstr ""
+
+#: inc/customizer/customizer.php:63
+msgid "Theme: Pictures & Tools"
+msgstr ""
+
+#. translators: %s: link to the theme admin page.
+#: inc/customizer/customizer.php:67
+#, php-format
+msgid "Import every picture from your previous theme, check plugin status, and export, import or reset these settings on the <a href=\"%s\" target=\"_blank\">Over The Ball theme page</a>."
+msgstr ""
+
+#: inc/customizer/customizer.php:79
+msgid "Open the theme page from Appearance → Over The Ball."
+msgstr ""
+
+#: inc/customizer/customizer.php:340
+msgid "Choose gallery pictures"
+msgstr ""
+
+#: inc/customizer/customizer.php:341
+msgid "Use these pictures"
+msgstr ""
+
+#: inc/customizer/options.php:23
+#: inc/customizer/options.php:737
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/options.php:24
+#: inc/customizer/options.php:316
+#: inc/customizer/options.php:736
+#: inc/customizer/options.php:891
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/options.php:25
+msgid "None (full width)"
+msgstr ""
+
+#: inc/customizer/options.php:29
+#: inc/customizer/options.php:773
+#: inc/customizer/options.php:947
+#: inc/customizer/options.php:1006
+#: inc/customizer/options.php:1191
+#: inc/customizer/options.php:1233
+#: inc/setup.php:118
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/options.php:30
+msgid "Phone & email"
+msgstr ""
+
+#: inc/customizer/options.php:31
+msgid "Top Bar menu"
+msgstr ""
+
+#: inc/customizer/options.php:32
+msgid "Social icons"
+msgstr ""
+
+#: inc/customizer/options.php:33
+msgid "Top Bar widget area"
+msgstr ""
+
+#: inc/customizer/options.php:34
+msgid "Nothing"
+msgstr ""
+
+#: inc/customizer/options.php:37
+msgid "All categories"
+msgstr ""
+
+#: inc/customizer/options.php:42
+#: inc/customizer/options.php:61
+msgid "— None —"
+msgstr ""
+
+#: inc/customizer/options.php:43
+msgid "— Choose an attribute —"
+msgstr ""
+
+#: inc/customizer/options.php:76
+msgid "Automatic (first active form)"
+msgstr ""
+
+#: inc/customizer/options.php:83
+msgid "Regular (400)"
+msgstr ""
+
+#: inc/customizer/options.php:84
+msgid "Medium (500)"
+msgstr ""
+
+#: inc/customizer/options.php:85
+msgid "Semibold (600)"
+msgstr ""
+
+#: inc/customizer/options.php:86
+msgid "Bold (700)"
+msgstr ""
+
+#: inc/customizer/options.php:90
+msgid "Theme: General & Layout"
+msgstr ""
+
+#: inc/customizer/options.php:91
+msgid "Theme: Colors & Fonts"
+msgstr ""
+
+#: inc/customizer/options.php:92
+msgid "Theme: Header"
+msgstr ""
+
+#: inc/customizer/options.php:93
+msgid "Theme: Footer"
+msgstr ""
+
+#: inc/customizer/options.php:94
+msgid "Theme: Homepage"
+msgstr ""
+
+#: inc/customizer/options.php:95
+msgid "Theme: Blog"
+msgstr ""
+
+#: inc/customizer/options.php:96
+msgid "Theme: Contact, Social & Forms"
+msgstr ""
+
+#: inc/customizer/options.php:100
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/options.php:101
+msgid "Sidebars"
+msgstr ""
+
+#: inc/customizer/options.php:101
+msgid "A sidebar only appears when its widget area has widgets (Appearance → Widgets). Individual pages can override this in the \"Page Layout\" box."
+msgstr ""
+
+#: inc/customizer/options.php:102
+msgid "Page Title & Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/options.php:103
+msgid "Performance"
+msgstr ""
+
+#: inc/customizer/options.php:105
+msgid "Brand Colors"
+msgstr ""
+
+#: inc/customizer/options.php:105
+msgid "Defaults are taken from the Over The Ball Yarns logo: violet yarn and ink-black script."
+msgstr ""
+
+#: inc/customizer/options.php:106
+msgid "Header & Footer Colors"
+msgstr ""
+
+#: inc/customizer/options.php:107
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/options.php:107
+msgid "Jost, Cormorant Garamond and Allura are bundled with the theme. Other fonts load from Google Fonts unless that is turned off."
+msgstr ""
+
+#: inc/customizer/options.php:109
+msgid "Announcement Bar"
+msgstr ""
+
+#: inc/customizer/options.php:110
+#: inc/widgets.php:39
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/options.php:111
+msgid "Header Layout & Behavior"
+msgstr ""
+
+#: inc/customizer/options.php:112
+msgid "Header Icons, Search & Cart"
+msgstr ""
+
+#: inc/customizer/options.php:113
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/customizer/options.php:115
+msgid "Newsletter Strip"
+msgstr ""
+
+#: inc/customizer/options.php:115
+msgid "Uses the MailPoet form chosen under Theme: Contact, Social & Forms."
+msgstr ""
+
+#: inc/customizer/options.php:116
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/customizer/options.php:116
+msgid "Add widgets to Footer Column 1–4. Until you do, the footer shows shop categories, customer care links and contact details."
+msgstr ""
+
+#: inc/customizer/options.php:117
+msgid "Copyright & Payments"
+msgstr ""
+
+#: inc/customizer/options.php:119
+msgid "Sections & Order"
+msgstr ""
+
+#: inc/customizer/options.php:119
+msgid "Shown when the homepage is set to your latest posts or a static page (Settings → Reading). Pages built with Elementor show their own content instead."
+msgstr ""
+
+#: inc/customizer/options.php:120
+msgid "Hero Slider"
+msgstr ""
+
+#: inc/customizer/options.php:121
+msgid "Feature Highlights"
+msgstr ""
+
+#: inc/customizer/options.php:122
+msgid "Shop by Category"
+msgstr ""
+
+#: inc/customizer/options.php:123
+#: inc/template-functions.php:290
+msgid "Products"
+msgstr ""
+
+#: inc/customizer/options.php:124
+msgid "Shop by Weight"
+msgstr ""
+
+#: inc/customizer/options.php:125
+msgid "Promo Banner"
+msgstr ""
+
+#: inc/customizer/options.php:126
+msgid "About / Story"
+msgstr ""
+
+#: inc/customizer/options.php:127
+#: inc/template-functions.php:294
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer/options.php:127
+msgid "The section stays hidden until at least one quote is entered."
+msgstr ""
+
+#: inc/customizer/options.php:128
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer/options.php:129
+msgid "Picture Gallery"
+msgstr ""
+
+#: inc/customizer/options.php:129
+msgid "Leave the picture list empty to show every picture imported from your previous theme."
+msgstr ""
+
+#: inc/customizer/options.php:131
+msgid "Blog & Archives"
+msgstr ""
+
+#: inc/customizer/options.php:132
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/options.php:134
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer/options.php:134
+msgid "Used in the top bar, footer, mobile menu and Contact page template."
+msgstr ""
+
+#: inc/customizer/options.php:135
+msgid "Social Profiles"
+msgstr ""
+
+#: inc/customizer/options.php:136
+msgid "Forms (Contact Form 7 & MailPoet)"
+msgstr ""
+
+#: inc/customizer/options.php:141
+msgid "Theme: Shop Layout"
+msgstr ""
+
+#: inc/customizer/options.php:142
+msgid "Theme: Product Cards"
+msgstr ""
+
+#: inc/customizer/options.php:143
+msgid "Theme: Single Product & Yarn Details"
+msgstr ""
+
+#: inc/customizer/options.php:144
+msgid "Theme: Cart & Checkout"
+msgstr ""
+
+#: inc/customizer/options.php:153
+msgid "Logo width (desktop)"
+msgstr ""
+
+#: inc/customizer/options.php:163
+msgid "Logo width (mobile)"
+msgstr ""
+
+#: inc/customizer/options.php:173
+msgid "Light logo"
+msgstr ""
+
+#: inc/customizer/options.php:174
+msgid "Used on the transparent header and dark footer. Defaults to a white version of the Over The Ball Yarns logo."
+msgstr ""
+
+#: inc/customizer/options.php:181
+msgid "Site layout"
+msgstr ""
+
+#: inc/customizer/options.php:183
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer/options.php:184
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/options.php:190
+msgid "Boxed layout backdrop"
+msgstr ""
+
+#: inc/customizer/options.php:198
+msgid "Container width"
+msgstr ""
+
+#: inc/customizer/options.php:209
+msgid "Corner radius (cards, images, inputs)"
+msgstr ""
+
+#: inc/customizer/options.php:219
+msgid "Button shape"
+msgstr ""
+
+#: inc/customizer/options.php:221
+msgid "Pill"
+msgstr ""
+
+#: inc/customizer/options.php:222
+msgid "Rounded"
+msgstr ""
+
+#: inc/customizer/options.php:223
+#: inc/setup.php:82
+msgid "Square"
+msgstr ""
+
+#: inc/customizer/options.php:229
+msgid "Uppercase button labels"
+msgstr ""
+
+#: inc/customizer/options.php:234
+msgid "Fade-in animations on scroll"
+msgstr ""
+
+#: inc/customizer/options.php:235
+msgid "Always disabled for visitors who prefer reduced motion."
+msgstr ""
+
+#: inc/customizer/options.php:240
+msgid "Back-to-top button"
+msgstr ""
+
+#: inc/customizer/options.php:247
+msgid "Blog & archives"
+msgstr ""
+
+#: inc/customizer/options.php:253
+msgid "Single posts"
+msgstr ""
+
+#: inc/customizer/options.php:259
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer/options.php:265
+#: template-parts/page-header.php:41
+msgid "Search results"
+msgstr ""
+
+#: inc/customizer/options.php:271
+msgid "Shop & product categories"
+msgstr ""
+
+#: inc/customizer/options.php:277
+msgid "Single products"
+msgstr ""
+
+#: inc/customizer/options.php:283
+msgid "Sticky sidebar while scrolling"
+msgstr ""
+
+#: inc/customizer/options.php:290
+msgid "Show title banner"
+msgstr ""
+
+#: inc/customizer/options.php:295
+msgid "Banner style"
+msgstr ""
+
+#: inc/customizer/options.php:297
+msgid "Lavender tint"
+msgstr ""
+
+#: inc/customizer/options.php:298
+msgid "Plain"
+msgstr ""
+
+#: inc/customizer/options.php:299
+msgid "Background image"
+msgstr ""
+
+#: inc/customizer/options.php:306
+msgid "Banner image"
+msgstr ""
+
+#: inc/customizer/options.php:307
+msgid "Pages with a featured image use that instead."
+msgstr ""
+
+#: inc/customizer/options.php:313
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer/options.php:315
+#: inc/customizer/options.php:892
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/options.php:323
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/customizer/options.php:324
+msgid "Uses Yoast SEO, Rank Math or WooCommerce breadcrumbs when available."
+msgstr ""
+
+#: inc/customizer/options.php:331
+msgid "Remove WordPress emoji script"
+msgstr ""
+
+#: inc/customizer/options.php:336
+msgid "Preload bundled fonts"
+msgstr ""
+
+#: inc/customizer/options.php:341
+msgid "Load Contact Form 7 files only where a form is used"
+msgstr ""
+
+#: inc/customizer/options.php:342
+msgid "Detects forms in page content and the Contact template. Leave off if you place forms in widgets or Elementor templates."
+msgstr ""
+
+#: inc/customizer/options.php:349
+msgid "Primary (logo violet)"
+msgstr ""
+
+#: inc/customizer/options.php:356
+msgid "Primary hover"
+msgstr ""
+
+#: inc/customizer/options.php:363
+msgid "Accent (stars, highlights)"
+msgstr ""
+
+#: inc/customizer/options.php:370
+msgid "Headings (logo ink)"
+msgstr ""
+
+#: inc/customizer/options.php:377
+msgid "Body text"
+msgstr ""
+
+#: inc/customizer/options.php:384
+msgid "Muted text"
+msgstr ""
+
+#: inc/customizer/options.php:391
+msgid "Page background"
+msgstr ""
+
+#: inc/customizer/options.php:398
+msgid "Lavender surface"
+msgstr ""
+
+#: inc/customizer/options.php:405
+msgid "Cream surface"
+msgstr ""
+
+#: inc/customizer/options.php:412
+msgid "Borders"
+msgstr ""
+
+#: inc/customizer/options.php:419
+#: inc/customizer/options.php:1609
+msgid "Sale badge"
+msgstr ""
+
+#: inc/customizer/options.php:428
+msgid "Announcement bar background"
+msgstr ""
+
+#: inc/customizer/options.php:435
+msgid "Announcement bar text"
+msgstr ""
+
+#: inc/customizer/options.php:442
+msgid "Top bar background"
+msgstr ""
+
+#: inc/customizer/options.php:449
+#: inc/customizer/options.php:640
+msgid "Top bar text"
+msgstr ""
+
+#: inc/customizer/options.php:456
+msgid "Header background"
+msgstr ""
+
+#: inc/customizer/options.php:463
+msgid "Header text & icons"
+msgstr ""
+
+#: inc/customizer/options.php:470
+msgid "Footer background"
+msgstr ""
+
+#: inc/customizer/options.php:477
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer/options.php:484
+msgid "Footer headings"
+msgstr ""
+
+#: inc/customizer/options.php:491
+msgid "Footer link hover"
+msgstr ""
+
+#: inc/customizer/options.php:500
+msgid "Body font"
+msgstr ""
+
+#: inc/customizer/options.php:506
+msgid "Heading font"
+msgstr ""
+
+#: inc/customizer/options.php:512
+msgid "Script accent font"
+msgstr ""
+
+#: inc/customizer/options.php:513
+msgid "Echoes the hand-lettered logo in small eyebrow titles."
+msgstr ""
+
+#: inc/customizer/options.php:519
+msgid "Use the script font for eyebrow titles"
+msgstr ""
+
+#: inc/customizer/options.php:524
+msgid "Base font size"
+msgstr ""
+
+#: inc/customizer/options.php:534
+msgid "Heading weight"
+msgstr ""
+
+#: inc/customizer/options.php:542
+msgid "Large title size (H1)"
+msgstr ""
+
+#: inc/customizer/options.php:552
+msgid "Section title size (H2)"
+msgstr ""
+
+#: inc/customizer/options.php:562
+msgid "Uppercase menu links"
+msgstr ""
+
+#: inc/customizer/options.php:567
+msgid "Menu letter spacing"
+msgstr ""
+
+#: inc/customizer/options.php:579
+msgid "Allow Google Fonts"
+msgstr ""
+
+#: inc/customizer/options.php:580
+msgid "Turn off to keep every font request on your own server; non-bundled choices then fall back to system fonts."
+msgstr ""
+
+#: inc/customizer/options.php:587
+msgid "Show announcement bar"
+msgstr ""
+
+#: inc/customizer/options.php:592
+msgid "Messages (one per line — they rotate)"
+msgstr ""
+
+#: inc/customizer/options.php:598
+msgid "Link (optional)"
+msgstr ""
+
+#: inc/customizer/options.php:604
+msgid "Seconds per message"
+msgstr ""
+
+#: inc/customizer/options.php:613
+msgid "Visitors can dismiss it"
+msgstr ""
+
+#: inc/customizer/options.php:621
+msgid "Show top bar"
+msgstr ""
+
+#: inc/customizer/options.php:626
+msgid "Left side"
+msgstr ""
+
+#: inc/customizer/options.php:633
+msgid "Right side"
+msgstr ""
+
+#: inc/customizer/options.php:648
+msgid "Show on mobile"
+msgstr ""
+
+#: inc/customizer/options.php:656
+msgid "Header layout"
+msgstr ""
+
+#: inc/customizer/options.php:658
+msgid "Classic — logo left, menu beside it"
+msgstr ""
+
+#: inc/customizer/options.php:659
+msgid "Boutique — logo centered, menu below"
+msgstr ""
+
+#: inc/customizer/options.php:660
+msgid "Shop — logo, wide search bar, menu below"
+msgstr ""
+
+#: inc/customizer/options.php:666
+msgid "Header vertical padding"
+msgstr ""
+
+#: inc/customizer/options.php:676
+msgid "Sticky header"
+msgstr ""
+
+#: inc/customizer/options.php:681
+msgid "Shrink when scrolling"
+msgstr ""
+
+#: inc/customizer/options.php:687
+msgid "Transparent header over the homepage hero"
+msgstr ""
+
+#: inc/customizer/options.php:688
+msgid "Works best when the first hero slide has a photo."
+msgstr ""
+
+#: inc/customizer/options.php:693
+msgid "Bottom border"
+msgstr ""
+
+#: inc/customizer/options.php:700
+#: searchform.php:17
+#: template-parts/header/header-icons.php:20
+#: template-parts/header/search-form.php:22
+#: template-parts/header/search-overlay.php:15
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/options.php:701
+msgid "Searches products when WooCommerce is active."
+msgstr ""
+
+#: inc/customizer/options.php:706
+msgid "Account icon (WooCommerce)"
+msgstr ""
+
+#: inc/customizer/options.php:711
+msgid "Cart icon (WooCommerce)"
+msgstr ""
+
+#: inc/customizer/options.php:716
+msgid "Show cart total beside the icon"
+msgstr ""
+
+#: inc/customizer/options.php:722
+msgid "Cart icon opens"
+msgstr ""
+
+#: inc/customizer/options.php:724
+msgid "Slide-out mini cart"
+msgstr ""
+
+#: inc/customizer/options.php:725
+msgid "Cart page"
+msgstr ""
+
+#: inc/customizer/options.php:734
+msgid "Drawer slides in from"
+msgstr ""
+
+#: inc/customizer/options.php:743
+msgid "Switch to the mobile menu below"
+msgstr ""
+
+#: inc/customizer/options.php:754
+msgid "Show newsletter strip above the footer"
+msgstr ""
+
+#: inc/customizer/options.php:759
+#: inc/customizer/options.php:934
+#: inc/customizer/options.php:1021
+#: inc/customizer/options.php:1064
+#: inc/customizer/options.php:1127
+#: inc/customizer/options.php:1179
+#: inc/customizer/options.php:1221
+#: inc/customizer/options.php:1263
+#: inc/customizer/options.php:1312
+#: inc/customizer/options.php:1345
+msgid "Script eyebrow"
+msgstr ""
+
+#: inc/customizer/options.php:766
+#: inc/customizer/options.php:940
+#: inc/customizer/options.php:1027
+#: inc/customizer/options.php:1070
+#: inc/customizer/options.php:1133
+#: inc/customizer/options.php:1185
+#: inc/customizer/options.php:1227
+#: inc/customizer/options.php:1269
+#: inc/customizer/options.php:1318
+#: inc/customizer/options.php:1351
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/options.php:780
+msgid "Background picture (optional)"
+msgstr ""
+
+#: inc/customizer/options.php:787
+msgid "Columns"
+msgstr ""
+
+#: inc/customizer/options.php:789
+msgid "No widget columns"
+msgstr ""
+
+#: inc/customizer/options.php:799
+msgid "Column widths"
+msgstr ""
+
+#: inc/customizer/options.php:801
+msgid "Equal"
+msgstr ""
+
+#: inc/customizer/options.php:802
+msgid "Wide first column"
+msgstr ""
+
+#: inc/customizer/options.php:803
+msgid "Wide last column"
+msgstr ""
+
+#: inc/customizer/options.php:809
+msgid "Logo, about text & social icons in column 1"
+msgstr ""
+
+#: inc/customizer/options.php:814
+msgid "Footer logo"
+msgstr ""
+
+#: inc/customizer/options.php:815
+msgid "Defaults to the light logo."
+msgstr ""
+
+#: inc/customizer/options.php:821
+msgid "About text"
+msgstr ""
+
+#: inc/customizer/options.php:830
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/options.php:831
+msgid "Tokens: {year}, {site}, {copy}."
+msgstr ""
+
+#: inc/customizer/options.php:838
+msgid "Show accepted payment methods"
+msgstr ""
+
+#: inc/customizer/options.php:843
+msgid "Payment methods (comma separated)"
+msgstr ""
+
+#: inc/customizer/options.php:849
+msgid "Or upload a payment badges image"
+msgstr ""
+
+#: inc/customizer/options.php:857
+msgid "Use the theme homepage sections"
+msgstr ""
+
+#: inc/customizer/options.php:862
+msgid "Section order"
+msgstr ""
+
+#: inc/customizer/options.php:863
+msgid "Drag to reorder. Turn sections on or off in their own panels."
+msgstr ""
+
+#: inc/customizer/options.php:872
+msgid "Show hero"
+msgstr ""
+
+#: inc/customizer/options.php:877
+msgid "Height"
+msgstr ""
+
+#: inc/customizer/options.php:879
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/options.php:880
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/options.php:881
+msgid "Compact"
+msgstr ""
+
+#: inc/customizer/options.php:882
+msgid "Full screen"
+msgstr ""
+
+#: inc/customizer/options.php:889
+msgid "Text alignment"
+msgstr ""
+
+#: inc/customizer/options.php:899
+msgid "Photo darkening"
+msgstr ""
+
+#: inc/customizer/options.php:908
+msgid "Autoplay seconds (0 = off)"
+msgstr ""
+
+#. translators: %d: slide number.
+#: inc/customizer/options.php:922
+#, php-format
+msgid "Slide %d"
+msgstr ""
+
+#: inc/customizer/options.php:928
+#: inc/customizer/options.php:1162
+#: inc/customizer/options.php:1215
+msgid "Picture"
+msgstr ""
+
+#: inc/customizer/options.php:941
+msgid "A slide shows once it has a title or a picture."
+msgstr ""
+
+#: inc/customizer/options.php:953
+#: inc/customizer/options.php:1197
+#: inc/customizer/options.php:1245
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer/options.php:959
+#: inc/customizer/options.php:1203
+msgid "Button link (blank = shop)"
+msgstr ""
+
+#: inc/customizer/options.php:965
+msgid "Second button label"
+msgstr ""
+
+#: inc/customizer/options.php:971
+msgid "Second button link (blank = newest products)"
+msgstr ""
+
+#: inc/customizer/options.php:979
+msgid "Show feature highlights"
+msgstr ""
+
+#. translators: %d: item number.
+#: inc/customizer/options.php:987
+#, php-format
+msgid "Highlight %d"
+msgstr ""
+
+#: inc/customizer/options.php:993
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/options.php:1000
+msgid "Title (blank hides it)"
+msgstr ""
+
+#: inc/customizer/options.php:1015
+msgid "Show product categories"
+msgstr ""
+
+#: inc/customizer/options.php:1016
+msgid "Category pictures come from Products → Categories → Thumbnail."
+msgstr ""
+
+#: inc/customizer/options.php:1033
+msgid "Category IDs to show (comma separated)"
+msgstr ""
+
+#: inc/customizer/options.php:1034
+msgid "Blank shows your top-level categories in their custom order."
+msgstr ""
+
+#: inc/customizer/options.php:1040
+#: inc/customizer/options.php:1103
+#: inc/customizer/options.php:1324
+msgid "How many"
+msgstr ""
+
+#: inc/customizer/options.php:1048
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/options.php:1050
+msgid "Portrait tiles"
+msgstr ""
+
+#: inc/customizer/options.php:1051
+msgid "Circles"
+msgstr ""
+
+#: inc/customizer/options.php:1059
+msgid "Show products"
+msgstr ""
+
+#: inc/customizer/options.php:1076
+msgid "Tabs: New Arrivals / Best Sellers / On Sale"
+msgstr ""
+
+#: inc/customizer/options.php:1082
+msgid "Products to show"
+msgstr ""
+
+#: inc/customizer/options.php:1084
+msgid "Newest"
+msgstr ""
+
+#: inc/customizer/options.php:1085
+#: template-parts/home/hero.php:40
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer/options.php:1086
+msgid "Best selling"
+msgstr ""
+
+#: inc/customizer/options.php:1087
+msgid "On sale"
+msgstr ""
+
+#: inc/customizer/options.php:1088
+msgid "Top rated"
+msgstr ""
+
+#: inc/customizer/options.php:1089
+msgid "From a category"
+msgstr ""
+
+#: inc/customizer/options.php:1096
+#: inc/customizer/options.php:1332
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/options.php:1111
+#: inc/customizer/options.php:1168
+#: inc/customizer/options.php:1395
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/options.php:1113
+msgid "Carousel"
+msgstr ""
+
+#: inc/customizer/options.php:1114
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/options.php:1122
+msgid "Show shop-by-weight"
+msgstr ""
+
+#: inc/customizer/options.php:1139
+msgid "Weights come from"
+msgstr ""
+
+#: inc/customizer/options.php:1141
+msgid "The \"Yarn weight\" field on each product (Yarn Details tab)"
+msgstr ""
+
+#: inc/customizer/options.php:1142
+msgid "A product attribute"
+msgstr ""
+
+#: inc/customizer/options.php:1149
+msgid "Attribute"
+msgstr ""
+
+#: inc/customizer/options.php:1157
+msgid "Show promo banner"
+msgstr ""
+
+#: inc/customizer/options.php:1170
+msgid "Picture left"
+msgstr ""
+
+#: inc/customizer/options.php:1171
+msgid "Picture right"
+msgstr ""
+
+#: inc/customizer/options.php:1172
+msgid "Text over picture"
+msgstr ""
+
+#: inc/customizer/options.php:1210
+msgid "Show about section"
+msgstr ""
+
+#: inc/customizer/options.php:1239
+msgid "Script sign-off"
+msgstr ""
+
+#: inc/customizer/options.php:1251
+msgid "Button link (blank = your \"about\" page)"
+msgstr ""
+
+#: inc/customizer/options.php:1258
+msgid "Show testimonials"
+msgstr ""
+
+#. translators: %d: testimonial number.
+#: inc/customizer/options.php:1280
+#, php-format
+msgid "Testimonial %d"
+msgstr ""
+
+#: inc/customizer/options.php:1286
+msgid "Quote"
+msgstr ""
+
+#: inc/customizer/options.php:1292
+msgid "Name"
+msgstr ""
+
+#: inc/customizer/options.php:1298
+msgid "Detail (e.g. location or project)"
+msgstr ""
+
+#: inc/customizer/options.php:1307
+msgid "Show latest posts"
+msgstr ""
+
+#: inc/customizer/options.php:1340
+msgid "Show picture gallery"
+msgstr ""
+
+#: inc/customizer/options.php:1363
+msgid "Maximum pictures (0 = all)"
+msgstr ""
+
+#: inc/customizer/options.php:1371
+msgid "Columns (desktop)"
+msgstr ""
+
+#: inc/customizer/options.php:1379
+msgid "\"Follow us\" link (blank = Instagram profile)"
+msgstr ""
+
+#: inc/customizer/options.php:1386
+msgid "Newsletter section on the homepage"
+msgstr ""
+
+#: inc/customizer/options.php:1387
+msgid "Replaces the footer newsletter strip on the homepage."
+msgstr ""
+
+#: inc/customizer/options.php:1397
+msgid "Grid of cards"
+msgstr ""
+
+#: inc/customizer/options.php:1398
+msgid "List"
+msgstr ""
+
+#: inc/customizer/options.php:1399
+msgid "Classic (large image)"
+msgstr ""
+
+#: inc/customizer/options.php:1405
+msgid "Grid columns"
+msgstr ""
+
+#: inc/customizer/options.php:1416
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: inc/customizer/options.php:1423
+msgid "\"Read more\" label"
+msgstr ""
+
+#: inc/customizer/options.php:1428
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer/options.php:1433
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer/options.php:1438
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer/options.php:1443
+msgid "Show comment count"
+msgstr ""
+
+#: inc/customizer/options.php:1449
+msgid "Featured image"
+msgstr ""
+
+#: inc/customizer/options.php:1454
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/options.php:1459
+msgid "Share links"
+msgstr ""
+
+#: inc/customizer/options.php:1464
+msgid "Author box"
+msgstr ""
+
+#: inc/customizer/options.php:1469
+msgid "Previous / next links"
+msgstr ""
+
+#: inc/customizer/options.php:1474
+msgid "Related posts"
+msgstr ""
+
+#: inc/customizer/options.php:1481
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/options.php:1486
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/options.php:1491
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/options.php:1496
+msgid "Hours"
+msgstr ""
+
+#: inc/customizer/options.php:1501
+msgid "Show a map of the address on the Contact page"
+msgstr ""
+
+#: inc/customizer/options.php:1507
+msgid "Open social links in a new tab"
+msgstr ""
+
+#: inc/customizer/options.php:1513
+msgid "Contact Form 7 form for the Contact page"
+msgstr ""
+
+#: inc/customizer/options.php:1515
+msgid "Install Contact Form 7 to choose a form."
+msgstr ""
+
+#: inc/customizer/options.php:1520
+msgid "MailPoet newsletter form"
+msgstr ""
+
+#: inc/customizer/options.php:1522
+msgid "Install MailPoet to choose a form."
+msgstr ""
+
+#: inc/customizer/options.php:1527
+msgid "Style MailPoet forms to match the theme"
+msgstr ""
+
+#: inc/customizer/options.php:1532
+msgid "Or use any newsletter shortcode"
+msgstr ""
+
+#: inc/customizer/options.php:1533
+msgid "Overrides the MailPoet form, e.g. [mailpoet_form id=\"2\"]."
+msgstr ""
+
+#: inc/customizer/options.php:1550
+msgid "Products per row (desktop)"
+msgstr ""
+
+#: inc/customizer/options.php:1557
+msgid "Products per row (mobile)"
+msgstr ""
+
+#: inc/customizer/options.php:1566
+msgid "Products per page"
+msgstr ""
+
+#: inc/customizer/options.php:1573
+msgid "Shop sidebar becomes a \"Filter\" drawer on mobile"
+msgstr ""
+
+#: inc/customizer/options.php:1578
+msgid "Catalog mode (hide prices and add to cart)"
+msgstr ""
+
+#: inc/customizer/options.php:1584
+msgid "Show second gallery picture on hover"
+msgstr ""
+
+#: inc/customizer/options.php:1589
+msgid "Show category"
+msgstr ""
+
+#: inc/customizer/options.php:1594
+msgid "Show star rating"
+msgstr ""
+
+#: inc/customizer/options.php:1599
+msgid "Add to cart button"
+msgstr ""
+
+#: inc/customizer/options.php:1601
+msgid "Always visible"
+msgstr ""
+
+#: inc/customizer/options.php:1602
+msgid "On hover (desktop)"
+msgstr ""
+
+#: inc/customizer/options.php:1603
+msgid "Hidden"
+msgstr ""
+
+#: inc/customizer/options.php:1611
+msgid "Percentage off"
+msgstr ""
+
+#: inc/customizer/options.php:1612
+msgid "\"Sale\""
+msgstr ""
+
+#: inc/customizer/options.php:1618
+msgid "\"New\" badge for products added within (days, 0 = off)"
+msgstr ""
+
+#: inc/customizer/options.php:1626
+msgid "Yarn Details tab and spec chips"
+msgstr ""
+
+#: inc/customizer/options.php:1627
+msgid "Fill in the \"Yarn Details\" tab when editing a product: weight, fiber, yardage, gauge, needle and hook size, care."
+msgstr ""
+
+#: inc/customizer/options.php:1632
+msgid "\"How many skeins?\" calculator"
+msgstr ""
+
+#: inc/customizer/options.php:1638
+msgid "Dye lot notice"
+msgstr ""
+
+#: inc/customizer/options.php:1639
+msgid "Shown on products where \"Show dye lot notice\" is ticked."
+msgstr ""
+
+#: inc/customizer/options.php:1645
+msgid "Sticky add-to-cart bar when scrolling"
+msgstr ""
+
+#: inc/customizer/options.php:1650
+msgid "Related products"
+msgstr ""
+
+#: inc/customizer/options.php:1657
+msgid "Gallery hover zoom"
+msgstr ""
+
+#: inc/customizer/options.php:1662
+msgid "Gallery lightbox"
+msgstr ""
+
+#: inc/customizer/options.php:1667
+msgid "Gallery slider"
+msgstr ""
+
+#: inc/customizer/options.php:1673
+msgid "Free shipping threshold (0 = hide progress bar)"
+msgstr ""
+
+#: inc/customizer/options.php:1674
+msgid "Shows \"You are $X away from free shipping\" in the mini cart and cart. Match it to your free shipping method."
+msgstr ""
+
+#: inc/customizer/options.php:1682
+msgid "Distraction-free checkout header and footer"
+msgstr ""
+
+#: inc/enqueue.php:109
+msgid "Expand submenu"
+msgstr ""
+
+#: inc/enqueue.php:110
+msgid "Collapse submenu"
+msgstr ""
+
+#. translators: %s: number of skeins.
+#: inc/enqueue.php:112
+#, php-format
+msgid "You will need about %s skeins."
+msgstr ""
+
+#: inc/enqueue.php:113
+msgid "You will need about 1 skein."
+msgstr ""
+
+#: inc/enqueue.php:114
+msgid "Decrease quantity"
+msgstr ""
+
+#: inc/enqueue.php:115
+msgid "Increase quantity"
+msgstr ""
+
+#: inc/enqueue.php:116
+msgid "Close"
+msgstr ""
+
+#: inc/helpers.php:368
+msgid "Facebook"
+msgstr ""
+
+#: inc/helpers.php:369
+msgid "Instagram"
+msgstr ""
+
+#: inc/helpers.php:370
+msgid "Pinterest"
+msgstr ""
+
+#: inc/helpers.php:371
+msgid "Ravelry"
+msgstr ""
+
+#: inc/helpers.php:372
+msgid "YouTube"
+msgstr ""
+
+#: inc/helpers.php:373
+msgid "TikTok"
+msgstr ""
+
+#: inc/helpers.php:374
+msgid "X (Twitter)"
+msgstr ""
+
+#: inc/helpers.php:375
+msgid "Etsy"
+msgstr ""
+
+#: inc/helpers.php:403
+msgid "Lace"
+msgstr ""
+
+#: inc/helpers.php:405
+msgid "Light fingering, crochet thread"
+msgstr ""
+
+#: inc/helpers.php:406
+msgid "US 000–1 · 1.5–2.25 mm"
+msgstr ""
+
+#: inc/helpers.php:409
+msgid "Fingering"
+msgstr ""
+
+#: inc/helpers.php:411
+msgid "Sock, baby, super fine"
+msgstr ""
+
+#: inc/helpers.php:412
+msgid "US 1–3 · 2.25–3.25 mm"
+msgstr ""
+
+#: inc/helpers.php:415
+msgid "Sport"
+msgstr ""
+
+#: inc/helpers.php:417
+msgid "Fine, baby"
+msgstr ""
+
+#: inc/helpers.php:418
+msgid "US 3–5 · 3.25–3.75 mm"
+msgstr ""
+
+#: inc/helpers.php:421
+msgid "DK"
+msgstr ""
+
+#: inc/helpers.php:423
+msgid "Light worsted"
+msgstr ""
+
+#: inc/helpers.php:424
+msgid "US 5–7 · 3.75–4.5 mm"
+msgstr ""
+
+#: inc/helpers.php:427
+msgid "Worsted"
+msgstr ""
+
+#: inc/helpers.php:429
+msgid "Aran, afghan, medium"
+msgstr ""
+
+#: inc/helpers.php:430
+msgid "US 7–9 · 4.5–5.5 mm"
+msgstr ""
+
+#: inc/helpers.php:433
+msgid "Bulky"
+msgstr ""
+
+#: inc/helpers.php:435
+msgid "Chunky, craft, rug"
+msgstr ""
+
+#: inc/helpers.php:436
+msgid "US 9–11 · 5.5–8 mm"
+msgstr ""
+
+#: inc/helpers.php:439
+msgid "Super Bulky"
+msgstr ""
+
+#: inc/helpers.php:441
+msgid "Roving, super chunky"
+msgstr ""
+
+#: inc/helpers.php:442
+msgid "US 11–17 · 8–12.75 mm"
+msgstr ""
+
+#: inc/helpers.php:445
+msgid "Jumbo"
+msgstr ""
+
+#: inc/helpers.php:447
+msgid "Jumbo, roving"
+msgstr ""
+
+#: inc/helpers.php:448
+msgid "US 17+ · 12.75 mm+"
+msgstr ""
+
+#: inc/image-importer.php:43
+msgid "Over The Ball: assets/images/library folder"
+msgstr ""
+
+#. translators: %s: theme name.
+#: inc/image-importer.php:58
+#, php-format
+msgid "Theme: %s"
+msgstr ""
+
+#: inc/image-importer.php:313
+msgid "Homepage hero"
+msgstr ""
+
+#: inc/image-importer.php:314
+#: inc/template-functions.php:292
+msgid "Promo banner"
+msgstr ""
+
+#: inc/image-importer.php:315
+msgid "About section"
+msgstr ""
+
+#: inc/image-importer.php:316
+msgid "Title banner (used when its style is \"Background image\")"
+msgstr ""
+
+#. translators: 1: number imported, 2: previous theme, 3: number remaining.
+#: inc/image-importer.php:479
+#, php-format
+msgid "Over The Ball imported %1$d pictures from %2$s. %3$d more are waiting."
+msgstr ""
+
+#: inc/image-importer.php:484
+msgid "Finish importing pictures"
+msgstr ""
+
+#. translators: 1: number of pictures, 2: previous theme.
+#: inc/image-importer.php:488
+#, php-format
+msgid "Over The Ball brought over %1$d pictures from %2$s and placed them in your homepage hero, promo, about section and gallery."
+msgstr ""
+
+#: inc/image-importer.php:492
+msgid "Review pictures"
+msgstr ""
+
+#: inc/image-importer.php:504
+msgid "You are not allowed to import pictures."
+msgstr ""
+
+#: inc/meta-boxes.php:18
+#: sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:21
+msgid "Default (Customizer)"
+msgstr ""
+
+#: inc/meta-boxes.php:22
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:23
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:24
+msgid "No sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:28
+msgid "Content width"
+msgstr ""
+
+#: inc/meta-boxes.php:31
+msgid "Default (contained)"
+msgstr ""
+
+#: inc/meta-boxes.php:32
+msgid "Full width / stretched (for page builders)"
+msgstr ""
+
+#: inc/meta-boxes.php:36
+msgid "Transparent header"
+msgstr ""
+
+#: inc/meta-boxes.php:39
+msgid "Default"
+msgstr ""
+
+#: inc/meta-boxes.php:40
+msgid "On — float over the first section"
+msgstr ""
+
+#: inc/meta-boxes.php:41
+msgid "Off"
+msgstr ""
+
+#: inc/meta-boxes.php:45
+msgid "Hide title banner"
+msgstr ""
+
+#: inc/meta-boxes.php:49
+msgid "Hide breadcrumbs"
+msgstr ""
+
+#: inc/meta-boxes.php:53
+msgid "Hide site header"
+msgstr ""
+
+#: inc/meta-boxes.php:57
+msgid "Hide site footer"
+msgstr ""
+
+#: inc/meta-boxes.php:102
+msgid "Page Layout (Over The Ball)"
+msgstr ""
+
+#. translators: %s: menu item title.
+#: inc/nav-menus.php:31
+#, php-format
+msgid "Show submenu for %s"
+msgstr ""
+
+#: inc/nav-menus.php:113
+#: template-parts/footer/default-column.php:14
+#: template-parts/page-header.php:24
+msgid "Shop"
+msgstr ""
+
+#: inc/nav-menus.php:114
+msgid "Show submenu for Shop"
+msgstr ""
+
+#: inc/setup.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:47
+msgid "Top Bar Menu"
+msgstr ""
+
+#: inc/setup.php:48
+msgid "Mobile Menu (falls back to Primary)"
+msgstr ""
+
+#: inc/setup.php:49
+msgid "Footer Links"
+msgstr ""
+
+#: inc/setup.php:50
+msgid "Footer Bottom / Legal Menu"
+msgstr ""
+
+#: inc/setup.php:80
+msgid "Wide (3:2)"
+msgstr ""
+
+#: inc/setup.php:81
+msgid "Portrait (4:5)"
+msgstr ""
+
+#: inc/setup.php:98
+msgid "Violet"
+msgstr ""
+
+#: inc/setup.php:103
+msgid "Deep Violet"
+msgstr ""
+
+#: inc/setup.php:108
+msgid "Accent"
+msgstr ""
+
+#: inc/setup.php:113
+msgid "Ink"
+msgstr ""
+
+#: inc/setup.php:123
+msgid "Lavender Mist"
+msgstr ""
+
+#: inc/setup.php:128
+msgid "Cream"
+msgstr ""
+
+#: inc/setup.php:133
+msgid "Border"
+msgstr ""
+
+#: inc/setup.php:138
+msgid "White"
+msgstr ""
+
+#: inc/setup.php:215
+msgid "Over The Ball Yarns logo"
+msgstr ""
+
+#: inc/setup.php:222
+msgid "Over The Ball Yarns icon"
+msgstr ""
+
+#: inc/template-functions.php:287
+msgid "Hero slider"
+msgstr ""
+
+#: inc/template-functions.php:288
+msgid "Feature highlights"
+msgstr ""
+
+#: inc/template-functions.php:289
+msgid "Shop by category"
+msgstr ""
+
+#: inc/template-functions.php:291
+msgid "Shop by weight"
+msgstr ""
+
+#: inc/template-functions.php:293
+msgid "About / story"
+msgstr ""
+
+#: inc/template-functions.php:295
+msgid "Latest posts"
+msgstr ""
+
+#: inc/template-functions.php:296
+msgid "Picture gallery"
+msgstr ""
+
+#: inc/template-functions.php:297
+msgid "Newsletter signup"
+msgstr ""
+
+#: inc/template-functions.php:298
+msgid "Page content"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgctxt "post author"
+msgid "by"
+msgstr ""
+
+#: inc/template-tags.php:206
+msgid "Tags:"
+msgstr ""
+
+#. translators: %s: post title.
+#: inc/template-tags.php:212
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:227
+msgid "Previous page"
+msgstr ""
+
+#: inc/template-tags.php:228
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:229
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:243
+#: inc/template-tags.php:248
+#: inc/template-tags.php:257
+#: inc/template-tags.php:272
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/template-tags.php:312
+#: template-parts/page-header.php:32
+msgid "Blog"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-tags.php:373
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: inc/template-tags.php:378
+#: template-parts/page-header.php:49
+msgid "Page not found"
+msgstr ""
+
+#: inc/template-tags.php:495
+msgid "Install MailPoet and create a form, or add any newsletter shortcode, to show a signup form here."
+msgstr ""
+
+#: inc/template-tags.php:497
+#: page-templates/template-contact.php:48
+msgid "Choose a form"
+msgstr ""
+
+#: inc/template-tags.php:512
+#: inc/template-tags.php:519
+msgid "Accepted payment methods"
+msgstr ""
+
+#: inc/template-tags.php:538
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/template-tags.php:539
+msgid "Pin it"
+msgstr ""
+
+#: inc/template-tags.php:540
+msgid "Share on X"
+msgstr ""
+
+#: inc/template-tags.php:541
+msgid "Share by email"
+msgstr ""
+
+#: inc/template-tags.php:544
+msgid "Share"
+msgstr ""
+
+#: inc/template-tags.php:567
+msgid "Written by"
+msgstr ""
+
+#: inc/template-tags.php:570
+msgid "More posts"
+msgstr ""
+
+#: inc/template-tags.php:604
+msgid "Keep reading"
+msgstr ""
+
+#: inc/template-tags.php:605
+msgid "Related Posts"
+msgstr ""
+
+#: inc/widgets.php:23
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Shown on the blog, archives and single posts."
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/widgets.php:28
+msgid "Shown on pages whose layout includes a sidebar."
+msgstr ""
+
+#: inc/widgets.php:31
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/widgets.php:32
+msgid "Shop and product category pages. Ideal for product filters. Becomes a slide-out drawer on mobile."
+msgstr ""
+
+#: inc/widgets.php:35
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/widgets.php:36
+msgid "Single product pages (when a product sidebar is enabled)."
+msgstr ""
+
+#: inc/widgets.php:40
+msgid "Used when a Top Bar side is set to \"Widget area\" (e.g. a currency switcher)."
+msgstr ""
+
+#: inc/widgets.php:44
+msgid "Header"
+msgstr ""
+
+#: inc/widgets.php:45
+msgid "Small widgets shown in the header beside the icons."
+msgstr ""
+
+#: inc/widgets.php:49
+msgid "Mobile Menu Drawer"
+msgstr ""
+
+#: inc/widgets.php:50
+msgid "Shown below the menu inside the mobile drawer."
+msgstr ""
+
+#: inc/widgets.php:53
+msgid "Before Footer"
+msgstr ""
+
+#: inc/widgets.php:54
+msgid "Full-width area above the newsletter strip and footer."
+msgstr ""
+
+#. translators: %d: footer column number.
+#: inc/widgets.php:62
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: inc/widgets.php:63
+msgid "Footer widget column. The number of columns is set in Customizer → Footer."
+msgstr ""
+
+#: inc/widgets/class-otb-yarn-weight-widget.php:21
+msgid "Over The Ball: Yarn Weights"
+msgstr ""
+
+#: inc/widgets/class-otb-yarn-weight-widget.php:23
+msgid "Links that filter the shop by yarn weight (uses the Yarn Details \"Yarn weight\" field)."
+msgstr ""
+
+#: inc/widgets/class-otb-yarn-weight-widget.php:36
+#: inc/widgets/class-otb-yarn-weight-widget.php:65
+msgid "Yarn Weight"
+msgstr ""
+
+#: inc/widgets/class-otb-yarn-weight-widget.php:69
+msgid "Title:"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blank Canvas (no header or footer)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Contact"
+msgstr ""
+
+#: page-templates/template-contact.php:23
+msgid "Say hello"
+msgstr ""
+
+#: page-templates/template-contact.php:24
+msgid "We would love to hear from you"
+msgstr ""
+
+#: page-templates/template-contact.php:46
+msgid "Install Contact Form 7 and choose a form to show it here (or add the form shortcode to this page)."
+msgstr ""
+
+#: page-templates/template-contact.php:57
+msgid "Map"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr ""
+
+#: patterns/intro-banner.php
+msgctxt "Pattern title"
+msgid "Welcome banner"
+msgstr ""
+
+#: patterns/intro-banner.php
+msgctxt "Pattern description"
+msgid "Lavender banner with a script greeting, heading, text and buttons."
+msgstr ""
+
+#: patterns/intro-banner.php:15
+msgid "Hello, maker"
+msgstr ""
+
+#: patterns/intro-banner.php:19
+msgid "Yarn and fiber for your next favorite project"
+msgstr ""
+
+#: patterns/intro-banner.php:23
+msgid "From cozy worsted to whisper-light lace, find the right yarn, fiber and notions for whatever is next on your needles or hook."
+msgstr ""
+
+#: patterns/intro-banner.php:28
+msgid "Shop yarn"
+msgstr ""
+
+#: patterns/intro-banner.php:32
+msgid "Ask a question"
+msgstr ""
+
+#: patterns/newsletter.php
+msgctxt "Pattern title"
+msgid "Newsletter signup"
+msgstr ""
+
+#: patterns/newsletter.php
+msgctxt "Pattern description"
+msgid "The violet newsletter strip with your MailPoet form."
+msgstr ""
+
+#: patterns/shop-by-weight.php
+msgctxt "Pattern title"
+msgid "Shop by yarn weight"
+msgstr ""
+
+#: patterns/shop-by-weight.php
+msgctxt "Pattern description"
+msgid "The theme's Shop by Weight grid (Lace to Jumbo), linked to the filtered shop."
+msgstr ""
+
+#: patterns/yarn-care.php
+msgctxt "Pattern title"
+msgid "Yarn care tips"
+msgstr ""
+
+#: patterns/yarn-care.php
+msgctxt "Pattern description"
+msgid "Three columns of yarn care advice with a script heading."
+msgstr ""
+
+#: patterns/yarn-care.php:15
+msgid "Love it longer"
+msgstr ""
+
+#: patterns/yarn-care.php:19
+msgid "Caring for your hand-knits"
+msgstr ""
+
+#: patterns/yarn-care.php:25
+msgid "Wash gently"
+msgstr ""
+
+#: patterns/yarn-care.php:29
+msgid "Use cool water and a wool wash. Avoid agitation, which can felt animal fibers that are not superwash."
+msgstr ""
+
+#: patterns/yarn-care.php:35
+msgid "Dry flat"
+msgstr ""
+
+#: patterns/yarn-care.php:39
+msgid "Roll in a towel to press out water, then lay flat and shape to size. Hanging stretches knits."
+msgstr ""
+
+#: patterns/yarn-care.php:45
+msgid "Store folded"
+msgstr ""
+
+#: patterns/yarn-care.php:49
+msgid "Fold sweaters in a breathable bag with cedar or lavender to keep moths away."
+msgstr ""
+
+#: searchform.php:13
+#: template-parts/header/search-form.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+#: template-parts/header/search-form.php:11
+msgid "Search…"
+msgstr ""
+
+#: sidebar.php:21
+msgid "Filter products"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Close filters"
+msgstr ""
+
+#: single.php:23
+msgid "Previous"
+msgstr ""
+
+#: single.php:24
+msgid "Next"
+msgstr ""
+
+#: template-parts/content/none.php:12
+msgid "Nothing found"
+msgstr ""
+
+#. translators: %s: new post link.
+#: template-parts/content/none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/none.php:24
+msgid "Sorry, nothing matched your search. Try different keywords."
+msgstr ""
+
+#: template-parts/content/none.php:27
+msgid "We could not find what you were looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/page.php:22
+#: template-parts/content/single.php:33
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/footer/default-column.php:16
+msgid "All products"
+msgstr ""
+
+#: template-parts/footer/default-column.php:44
+msgid "Customer Care"
+msgstr ""
+
+#: template-parts/footer/default-column.php:56
+#: template-parts/header/header-icons.php:27
+#: template-parts/header/mobile-drawer.php:41
+msgid "My account"
+msgstr ""
+
+#: template-parts/footer/default-column.php:79
+msgid "Get in Touch"
+msgstr ""
+
+#: template-parts/footer/default-column.php:88
+msgid "Add your phone, email and address"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:70
+msgid "Legal"
+msgstr ""
+
+#: template-parts/header/announcement.php:22
+msgid "Announcements"
+msgstr ""
+
+#: template-parts/header/announcement.php:55
+msgid "Dismiss announcement"
+msgstr ""
+
+#: template-parts/header/checkout-header.php:14
+msgid "Back to cart"
+msgstr ""
+
+#: template-parts/header/checkout-header.php:17
+msgid "Secure checkout"
+msgstr ""
+
+#: template-parts/header/header-icons.php:27
+msgid "Sign in"
+msgstr ""
+
+#: template-parts/header/mobile-drawer.php:14
+msgid "Menu"
+msgstr ""
+
+#: template-parts/header/mobile-drawer.php:19
+msgid "Close menu"
+msgstr ""
+
+#: template-parts/header/mobile-drawer.php:26
+msgid "Mobile"
+msgstr ""
+
+#: template-parts/header/mobile-drawer.php:41
+msgid "Sign in / Register"
+msgstr ""
+
+#: template-parts/header/search-form.php:11
+msgid "Search yarn, fiber, kits…"
+msgstr ""
+
+#: template-parts/header/search-overlay.php:17
+msgid "What are you making next?"
+msgstr ""
+
+#: template-parts/header/search-overlay.php:32
+msgid "Popular:"
+msgstr ""
+
+#: template-parts/header/search-overlay.php:43
+msgid "Close search"
+msgstr ""
+
+#: template-parts/header/site-header.php:37
+msgid "Open menu"
+msgstr ""
+
+#: template-parts/header/site-header.php:47
+#: template-parts/header/site-header.php:72
+msgid "Primary"
+msgstr ""
+
+#: template-parts/home/blog.php:34
+msgid "All posts"
+msgstr ""
+
+#: template-parts/home/categories.php:46
+msgid "View all"
+msgstr ""
+
+#. translators: %d: number of products.
+#: template-parts/home/categories.php:70
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/home/features.php:26
+msgid "Why shop with us"
+msgstr ""
+
+#: template-parts/home/gallery.php:36
+msgid "Follow us"
+msgstr ""
+
+#. translators: %s: image title.
+#: template-parts/home/gallery.php:49
+#, php-format
+msgid "View larger: %s"
+msgstr ""
+
+#. translators: 1: slide number, 2: slide count.
+#: template-parts/home/hero.php:43
+#, php-format
+msgid "%1$d of %2$d"
+msgstr ""
+
+#: template-parts/home/hero.php:95
+msgid "Previous slide"
+msgstr ""
+
+#. translators: %d: slide number.
+#: template-parts/home/hero.php:98
+#, php-format
+msgid "Go to slide %d"
+msgstr ""
+
+#: template-parts/home/hero.php:101
+msgid "Next slide"
+msgstr ""
+
+#: template-parts/home/products.php:20
+msgid "New Arrivals"
+msgstr ""
+
+#: template-parts/home/products.php:21
+msgid "Best Sellers"
+msgstr ""
+
+#: template-parts/home/products.php:22
+msgid "On Sale"
+msgstr ""
+
+#: template-parts/home/products.php:52
+msgid "Shop all"
+msgstr ""
+
+#: template-parts/home/products.php:59
+msgid "Product collections"
+msgstr ""
+
+#: template-parts/home/products.php:74
+msgid "Scroll back"
+msgstr ""
+
+#: template-parts/home/products.php:75
+msgid "Scroll forward"
+msgstr ""
+
+#. translators: %s: search query.
+#: template-parts/page-header.php:43
+#, php-format
+msgid "“%s”"
+msgstr ""
+
+#. translators: %d: number of results.
+#: template-parts/page-header.php:46
+#, php-format
+msgid "%d result found"
+msgid_plural "%d results found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/page-header.php:48
+msgid "Oops — dropped a stitch"
+msgstr ""

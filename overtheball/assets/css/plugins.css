@@ -1,0 +1,274 @@
+/*
+ * Over The Ball — Contact Form 7, MailPoet and Elementor styles
+ */
+
+/* Contact Form 7 -------------------------------------------------------- */
+
+.wpcf7 form > p,
+.wpcf7 form .otb-cf7-row {
+	margin-bottom: 18px;
+}
+
+.wpcf7 label {
+	display: block;
+	margin-bottom: 6px;
+	color: var(--otb-heading);
+	font-weight: 500;
+}
+
+.wpcf7 label .wpcf7-form-control-wrap {
+	display: block;
+	margin-top: 6px;
+}
+
+.wpcf7 .wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-checkbox):not(.wpcf7-radio):not(.wpcf7-acceptance) {
+	width: 100%;
+}
+
+.wpcf7 .wpcf7-checkbox,
+.wpcf7 .wpcf7-radio,
+.wpcf7 .wpcf7-acceptance {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 20px;
+}
+
+.wpcf7 .wpcf7-list-item {
+	margin: 0;
+}
+
+.wpcf7 .wpcf7-list-item label {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 400;
+}
+
+.wpcf7 .wpcf7-submit {
+	min-width: 180px;
+}
+
+.wpcf7 .wpcf7-spinner {
+	vertical-align: middle;
+	margin: 0 12px;
+	background-color: var(--otb-primary);
+}
+
+.wpcf7 .wpcf7-not-valid {
+	border-color: var(--otb-sale) !important;
+}
+
+.wpcf7 .wpcf7-not-valid-tip {
+	margin-top: 6px;
+	color: var(--otb-sale);
+	font-size: 0.85rem;
+}
+
+.wpcf7 form .wpcf7-response-output {
+	margin: 20px 0 0;
+	padding: 14px 18px;
+	border: 0;
+	border-left: 3px solid var(--otb-primary);
+	border-radius: var(--otb-radius-sm);
+	background: var(--otb-surface);
+	color: var(--otb-heading);
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+	border-left-color: #2f9e6a;
+	background: color-mix(in srgb, #2f9e6a 10%, var(--otb-bg));
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output,
+.wpcf7 form.spam .wpcf7-response-output {
+	border-left-color: var(--otb-sale);
+	background: color-mix(in srgb, var(--otb-sale) 8%, var(--otb-bg));
+}
+
+.otb-contact-page__form .wpcf7 {
+	padding: clamp(24px, 4vw, 40px);
+	border: 1px solid var(--otb-border);
+	border-radius: calc(var(--otb-radius) * 1.5);
+	background: var(--otb-bg);
+	box-shadow: var(--otb-shadow-sm);
+}
+
+/* MailPoet -------------------------------------------------------------- */
+
+.otb-mailpoet-styled .mailpoet_form {
+	padding: 0 !important;
+	background: transparent !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form form {
+	margin: 0;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_paragraph {
+	margin-bottom: 12px !important;
+	line-height: 1.4;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_text_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_textarea_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_select_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_radio_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_checkbox_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_list_label,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_date_label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 500;
+}
+
+.otb-mailpoet-styled .mailpoet_form input.mailpoet_text,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_textarea,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_select {
+	width: 100% !important;
+	min-height: 52px;
+	padding: 0.75em 1.2em !important;
+	border: 1px solid color-mix(in srgb, var(--otb-heading) 18%, var(--otb-bg)) !important;
+	border-radius: var(--otb-btn-radius) !important;
+	background: var(--otb-bg) !important;
+	color: var(--otb-heading) !important;
+	font-family: var(--otb-font-body) !important;
+	font-size: 1rem !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_textarea {
+	border-radius: var(--otb-radius-sm) !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form input.mailpoet_submit {
+	width: 100% !important;
+	min-height: 52px;
+	padding: 0.75em 1.8em !important;
+	border: 1.5px solid var(--otb-primary) !important;
+	border-radius: var(--otb-btn-radius) !important;
+	background: var(--otb-primary) !important;
+	color: var(--otb-on-primary) !important;
+	font-family: var(--otb-font-body) !important;
+	font-size: 0.9rem !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.06em;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.otb-btn-upper.otb-mailpoet-styled .mailpoet_form input.mailpoet_submit {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 0.82rem !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form input.mailpoet_submit:hover {
+	border-color: var(--otb-primary-dark) !important;
+	background: var(--otb-primary-dark) !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_message p,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_validate_success,
+.otb-mailpoet-styled .mailpoet_form .mailpoet_validate_error {
+	margin: 8px 0 0;
+	font-size: 0.9rem;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_validate_success {
+	color: #2f9e6a !important;
+}
+
+.otb-mailpoet-styled .mailpoet_form .mailpoet_validate_error,
+.otb-mailpoet-styled .mailpoet_form .parsley-errors-list {
+	color: var(--otb-sale) !important;
+}
+
+/* Two-column field + button layout inside the newsletter strip. */
+@media (min-width: 560px) {
+	.otb-mailpoet-styled .otb-newsletter .mailpoet_form form {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
+		gap: 0 10px;
+		align-items: end;
+	}
+
+	.otb-mailpoet-styled .otb-newsletter .mailpoet_form form > * {
+		grid-column: 1 / -1;
+	}
+
+	.otb-mailpoet-styled .otb-newsletter .mailpoet_form .mailpoet_paragraph:has(input.mailpoet_text[type="email"]) {
+		grid-column: 1;
+	}
+
+	.otb-mailpoet-styled .otb-newsletter .mailpoet_form .mailpoet_paragraph:has(input.mailpoet_submit) {
+		grid-column: 2;
+	}
+
+	.otb-mailpoet-styled .otb-newsletter .mailpoet_form input.mailpoet_submit {
+		width: auto !important;
+	}
+}
+
+.otb-newsletter .mailpoet_form label,
+.otb-newsletter .mailpoet_form .mailpoet_paragraph,
+.otb-newsletter .mailpoet_message {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.otb-newsletter .mailpoet_form .mailpoet_validate_success {
+	color: #9ff0c6 !important;
+}
+
+.otb-mailpoet-styled .otb-newsletter .mailpoet_form input.mailpoet_text {
+	border-color: transparent !important;
+}
+
+.site-footer .mailpoet_form input.mailpoet_text {
+	border-color: color-mix(in srgb, var(--otb-footer-text) 35%, transparent) !important;
+}
+
+/* Elementor ------------------------------------------------------------- */
+
+.otb-elementor-page .entry--page,
+.otb-full-bleed .entry--page {
+	margin: 0;
+}
+
+.otb-full-bleed .site-main--page > .entry--page > .entry-footer {
+	display: none;
+}
+
+.elementor-page .page-header + .content-wrap--full {
+	padding-top: 0;
+}
+
+/* Let Elementor sections use the theme fonts when "Default" is chosen. */
+.elementor-widget-heading .elementor-heading-title:not([class*="elementor-size-"]) {
+	font-family: var(--otb-font-heading);
+}
+
+.elementor-widget-button .elementor-button {
+	border-radius: var(--otb-btn-radius);
+	background-color: var(--otb-primary);
+	font-family: var(--otb-font-body);
+	font-weight: 600;
+}
+
+.elementor-widget-button .elementor-button:hover {
+	background-color: var(--otb-primary-dark);
+}
+
+.elementor-widget-text-editor {
+	color: var(--otb-text);
+}
+
+.elementor-widget-woocommerce-products ul.products,
+.elementor-widget-wc-archive-products ul.products {
+	display: grid;
+}
+
+.elementor-location-header + .site-content .page-header {
+	margin-top: 0;
+}
