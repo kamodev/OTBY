@@ -1,0 +1,82 @@
+name: Release theme
+
+# Builds overtheball-<version>.zip and publishes it as a GitHub release.
+# Run it from the Actions tab (defaults to the Version in overtheball/style.css)
+# or push a tag such as v1.0.1.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release, e.g. 1.0.0 (blank = Version in overtheball/style.css)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine version
+        id: version
+        env:
+          INPUT_VERSION: ${{ inputs.version }}
+        run: |
+          theme_version=$(sed -n 's/^Version:[[:space:]]*//p' overtheball/style.css | tr -d '\r')
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then
+            version="${GITHUB_REF_NAME#v}"
+          elif [ -n "$INPUT_VERSION" ]; then
+            version="${INPUT_VERSION#v}"
+          else
+            version="$theme_version"
+          fi
+          if [ "$version" != "$theme_version" ]; then
+            echo "::error::Release version $version does not match Version: $theme_version in overtheball/style.css"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Lint PHP
+        run: find overtheball -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: Build zip
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          bin/build-zip.sh
+          mv dist/overtheball.zip "dist/overtheball-$VERSION.zip"
+
+      - name: Write release notes
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          {
+            echo "## Install"
+            echo
+            echo "Download **overtheball-$VERSION.zip** below, then in WordPress go to **Appearance → Themes → Add New → Upload Theme**, choose the file and click **Activate**."
+            echo
+            echo "On activation the theme installs the Over The Ball Yarns logo and imports every picture from the previously active theme (review them in **Appearance → Over The Ball → Pictures**)."
+            echo
+            echo "Supported plugins: WooCommerce, Contact Form 7, MailPoet and Elementor. Requires WordPress 6.4+ and PHP 7.4+."
+            echo
+            echo "## Changes"
+            echo
+            # The matching "= x.y.z =" section of the readme.txt changelog.
+            awk -v v="= $VERSION =" '$0 == v { found = 1; next } found && /^= / { exit } found && NF { print }' overtheball/readme.txt
+          } > release-notes.md
+          cat release-notes.md
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          gh release create "v$VERSION" "dist/overtheball-$VERSION.zip" \
+            --target "$GITHUB_SHA" \
+            --title "Over The Ball $VERSION" \
+            --notes-file release-notes.md

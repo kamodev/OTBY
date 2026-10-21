@@ -1,0 +1,90 @@
+/*
+ * Over The Ball — block editor styles.
+ *
+ * CSS variables are injected by inc/enqueue.php so the editor tracks the
+ * Customizer's colors and fonts.
+ */
+
+body {
+	background: var(--otb-bg, #fff);
+	color: var(--otb-text, #463f52);
+	font-family: var(--otb-font-body, "Jost", sans-serif);
+	font-size: var(--otb-fs-base, 17px);
+	line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.editor-post-title__input,
+.wp-block-post-title {
+	color: var(--otb-heading, #1b1525);
+	font-family: var(--otb-font-heading, "Cormorant Garamond", serif);
+	font-weight: var(--otb-heading-weight, 600);
+	line-height: 1.12;
+	letter-spacing: -0.01em;
+}
+
+h1,
+.editor-post-title__input,
+.wp-block-post-title {
+	font-size: clamp(2.2rem, 4.4vw, var(--otb-h1, 54px));
+}
+
+h2 {
+	font-size: clamp(1.9rem, 3.4vw, var(--otb-h2, 40px));
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+a {
+	color: var(--otb-primary, #6623eb);
+}
+
+blockquote,
+.wp-block-quote {
+	margin: 1.75em 0;
+	padding: 0.25em 0 0.25em 1.5em;
+	border-left: 3px solid var(--otb-primary, #6623eb);
+	font-family: var(--otb-font-heading, serif);
+	font-size: 1.45rem;
+	font-style: italic;
+	color: var(--otb-heading, #1b1525);
+}
+
+.wp-block-image img {
+	border-radius: var(--otb-radius, 12px);
+}
+
+.wp-block-button__link {
+	border-radius: var(--otb-btn-radius, 999px);
+	padding: 0.75em 1.75em;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
+
+.is-style-outline > .wp-block-button__link {
+	border: 1.5px solid currentColor;
+	background: transparent;
+	color: var(--otb-heading, #1b1525);
+}
+
+.has-script-font-family {
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+ul li::marker {
+	color: var(--otb-primary, #6623eb);
+}
+
+table td,
+table th {
+	padding: 0.75em 1em;
+	border-bottom: 1px solid var(--otb-border, #e6dff1);
+}

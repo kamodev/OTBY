@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": false,
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "primary", "name": "Violet", "color": "#6623EB" },
+				{ "slug": "primary-dark", "name": "Deep Violet", "color": "#4B14B8" },
+				{ "slug": "accent", "name": "Accent", "color": "#D9A441" },
+				{ "slug": "ink", "name": "Ink", "color": "#1B1525" },
+				{ "slug": "text", "name": "Text", "color": "#463F52" },
+				{ "slug": "lavender", "name": "Lavender Mist", "color": "#F6F2FE" },
+				{ "slug": "cream", "name": "Cream", "color": "#FBF8F3" },
+				{ "slug": "border", "name": "Border", "color": "#E6DFF1" },
+				{ "slug": "white", "name": "White", "color": "#FFFFFF" }
+			],
+			"gradients": [
+				{
+					"slug": "lavender-wash",
+					"name": "Lavender wash",
+					"gradient": "linear-gradient(135deg, #F6F2FE 0%, #FBF8F3 100%)"
+				},
+				{
+					"slug": "violet-dusk",
+					"name": "Violet dusk",
+					"gradient": "linear-gradient(135deg, #6623EB 0%, #1B1525 100%)"
+				}
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"fontFamilies": [
+				{ "slug": "body", "name": "Body", "fontFamily": "var(--otb-font-body)" },
+				{ "slug": "heading", "name": "Heading", "fontFamily": "var(--otb-font-heading)" },
+				{ "slug": "script", "name": "Script", "fontFamily": "var(--otb-font-script)" }
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Small", "size": "0.875rem" },
+				{ "slug": "medium", "name": "Medium", "size": "1.0625rem" },
+				{ "slug": "large", "name": "Large", "size": "1.375rem", "fluid": { "min": "1.2rem", "max": "1.375rem" } },
+				{ "slug": "x-large", "name": "Extra Large", "size": "2rem", "fluid": { "min": "1.6rem", "max": "2rem" } },
+				{ "slug": "xx-large", "name": "Huge", "size": "3rem", "fluid": { "min": "2.2rem", "max": "3rem" } }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "%", "vh", "vw" ]
+		},
+		"layout": {
+			"contentSize": "820px",
+			"wideSize": "1280px"
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": { "background": "var(--otb-primary)", "text": "#FFFFFF" },
+				"border": { "radius": "var(--otb-btn-radius)" },
+				"typography": { "fontFamily": "var(--otb-font-body)", "fontWeight": "600" }
+			},
+			"link": {
+				"color": { "text": "var(--otb-primary)" }
+			}
+		}
+	}
+}

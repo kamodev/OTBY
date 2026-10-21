@@ -1,0 +1,216 @@
+/* Over The Ball — theme admin page */
+
+.otb-admin {
+	--otb-violet: #6623eb;
+	--otb-ink: #1b1525;
+	--otb-lavender: #f6f2fe;
+	max-width: 1200px;
+}
+
+.otb-admin__hero {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+	margin: 20px 0;
+	padding: 24px 28px;
+	background: linear-gradient(135deg, #f6f2fe 0%, #fbf8f3 100%);
+	border: 1px solid #e6dff1;
+	border-radius: 12px;
+}
+
+.otb-admin__hero img {
+	height: auto;
+	max-width: 40vw;
+}
+
+.otb-admin__hero h1 {
+	margin: 0 0 6px;
+	color: var(--otb-ink);
+}
+
+.otb-admin__version {
+	font-size: 12px;
+	font-weight: 500;
+	padding: 2px 8px;
+	border-radius: 20px;
+	background: var(--otb-violet);
+	color: #fff;
+	vertical-align: middle;
+}
+
+.otb-admin__body {
+	margin-top: 20px;
+}
+
+.otb-admin__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px;
+}
+
+.otb-card {
+	background: #fff;
+	border: 1px solid #e6dff1;
+	border-radius: 12px;
+	padding: 20px 24px;
+	margin-bottom: 20px;
+}
+
+.otb-admin__grid .otb-card {
+	margin-bottom: 0;
+}
+
+.otb-card--wide {
+	grid-column: 1 / -1;
+}
+
+.otb-card h2 {
+	margin-top: 0;
+	color: var(--otb-ink);
+}
+
+.otb-checklist li,
+.otb-links li {
+	margin: 0 0 10px;
+}
+
+.otb-checklist .dashicons {
+	color: #a7aaad;
+	margin-right: 6px;
+}
+
+.otb-checklist .is-done .dashicons {
+	color: #00a32a;
+}
+
+.otb-links {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4px 16px;
+}
+
+.otb-links a {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	text-decoration: none;
+	color: var(--otb-ink);
+}
+
+.otb-links .dashicons {
+	color: var(--otb-violet);
+}
+
+.otb-tips {
+	list-style: disc;
+	padding-left: 20px;
+}
+
+.otb-scan-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 16px;
+	margin: 16px 0;
+}
+
+.otb-scan-summary {
+	padding: 16px;
+	background: var(--otb-lavender);
+	border-radius: 8px;
+}
+
+.otb-progress {
+	margin-top: 12px;
+}
+
+.otb-progress__bar {
+	height: 10px;
+	background: #e6dff1;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.otb-progress__bar span {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: var(--otb-violet);
+	transition: width 0.3s ease;
+}
+
+.otb-thumbs {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+	gap: 12px;
+	margin: 16px 0;
+}
+
+.otb-thumbs li {
+	position: relative;
+	margin: 0;
+	padding: 6px;
+	border: 1px solid #e6dff1;
+	border-radius: 8px;
+	background: #fff;
+	font-size: 12px;
+}
+
+.otb-thumbs img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	border-radius: 4px;
+	background: #f0f0f1;
+}
+
+.otb-thumbs li.is-imported::after {
+	content: "\f147";
+	font-family: dashicons;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border-radius: 50%;
+	background: #00a32a;
+	color: #fff;
+}
+
+.otb-thumbs__name {
+	display: block;
+	margin-top: 6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.otb-thumbs__meta {
+	color: #646970;
+}
+
+.otb-thumbs__used {
+	display: block;
+	margin-top: 4px;
+	color: var(--otb-violet);
+	font-weight: 600;
+}
+
+.otb-inline-form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+}
+
+.otb-status--ok {
+	color: #00a32a;
+	font-weight: 600;
+}
+
+.otb-status .dashicons {
+	margin-right: 4px;
+}
