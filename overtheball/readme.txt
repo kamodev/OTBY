@@ -94,4 +94,10 @@ Interface icons are drawn in the style of Feather Icons; some paths are adapted 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release.
+* Initial release of the Over The Ball yarn & fiber shop theme.
+* Over The Ball Yarns logo, light logo and site icon installed on activation.
+* Picture importer: every picture from the previously active theme is imported and used in the hero, promo, about, title banner and homepage gallery.
+* Customizer settings for layout, sidebars, colors, typography, announcement bar, top bar, three header layouts, footer, homepage sections and order, blog, contact, social, forms and performance; settings export, import and reset.
+* Five menu locations with mega menu support, twelve widget areas, per-page layout options and Full Width, Blank Canvas and Contact templates.
+* WooCommerce: Yarn Details product data, spec chips, skein calculator, dye-lot notice, shop by weight, mini-cart drawer with free-shipping progress, badges, sticky add to cart, mobile filter drawer and distraction-free checkout.
+* Contact Form 7, MailPoet and Elementor support.
